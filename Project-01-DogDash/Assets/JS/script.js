@@ -66,4 +66,4 @@ button.addEventListener("click", function(){
         info.innerHTML= weathInfo;
     })
     .catch(error= alert("Cannot locate this location"))
-})
+});

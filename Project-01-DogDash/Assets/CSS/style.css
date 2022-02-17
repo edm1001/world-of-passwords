@@ -66,6 +66,9 @@ form label{
     padding:10px 10px;
    
 }
+.view-weather{
+    text-align: center;
+}
 
 .content-box{
     background-color: white ;
