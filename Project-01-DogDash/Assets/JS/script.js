@@ -44,3 +44,5 @@ var walker= {
 //local storage functions
 localStorage.setItem("walker",JSON.stringify(walker));
 });
+
+
