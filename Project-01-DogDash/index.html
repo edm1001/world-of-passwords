@@ -40,7 +40,18 @@
         <h2 class="section-title">Join Us!</h2>
         <div class="content-info" >
             <p>Here at DogDash we put our walker's and your pet's safety in priority. So you must schedule ahead for a walk and one of our walkers will reach out to you.<br>
-                Feel free to use our weather app to check the weather conditions for your desired date. </p>
+                Feel free to use our weather app to check your city's weather conditions. </p>
+        <div class="weather-box">
+            <input type="text" class="weatherInput" placeholder="enter your city">
+            <input type="submit" value="submit">
+        </div>
+        <div class="display">
+            <h1 class="name"></h1>
+            <h1 class="info"></h1>
+            <h1 class="temp"></h1>
+            
+        </div>
+         
             
         <div class="signup-box">
          <form>
@@ -51,8 +62,8 @@
             <input type="text" name="user-email" id="user-email" placeholder= "Your Email"/>
             <label for="user-address">Address:</label>
             <input type="text" name="user-address" id="user-address" placeholder= "Your Address"/>
-            <label>Tell us about your dog!</label>
-            <input type="text" name="user-info" id="user-info" placeholder= "Small description about your dog's breed and temperament on a leash"/>
+            <label>Select a date for the walk session! </label>
+            <input type="text" name="user-info" id="user-info" placeholder= "mm/dd/yyyy"/>
             <button type="button" id="user-submit" >Join the Pack!</button>
         </form>
       </div>  </div>
@@ -92,9 +103,9 @@
             <h4>Pet not feeling like themselves?</h4>
             <p>
                 <ul>
-                    <li>Local Vet Clinics</li>
-                    <li>Local Veterinary Hospitals</li>
-                    <li>At home remedy sites</li>
+                    <a>Local Vet Clinics</a> <br>
+                    <a>Local Veterinary Hospitals</a><br>
+                    <a>At home remedy sites</a>
                 </ul>
             </p>
         </div>
@@ -102,10 +113,10 @@
             <h4>Training</h4>
             <p>
                 <ul>
-                    <li>Training is a great way to connect with your pet.</li>
-                    <li>Local trainers</li><!--link to your local dog trainers (Map API)-->
-                    <li> At Home training videos</li> <!--link to youtube dog training channels-->
-                    <li>Dog Training products</li> <!--link to dog training products-->
+                    <a>Training is the best way to connect with your pet</a> <br>
+                    <a>Local trainers (Click to find a Local Trainer!)</a><br><!--link to your local dog trainers (Map API)-->
+                    <a>At Home training videos</a> <br><!--link to youtube dog training channels-->
+                    <a>Dog Training products</a><br> <!--link to dog training products-->
                 </ul>
             </p>
         </div>
@@ -123,31 +134,31 @@
         <div class="review">
             <img class="review-image" src="./Assets/Images/dog1.jpg" alt="cute dogs">
             <div class="review-overlay">
-                <div class="review-title"></div>
-                <p class="review-content">"Our dog never slept so well after the walk."</p>
+                <div class="review-title">Penny & Benny</div>
+                <p class="review-content">"My pups used to chew on furniture when they can't use their energy. This company helped me because I recently transferred jobs and I barely have any time to spend with my dogs."</p>
             </div>
         </div>
         <div class="review">
             <img class="review-image" src="./Assets/Images/dog3.jpg" alt="cute dogs">
             <div class="review-overlay">
-                <div class="review-title">Baby</div>
-                <p class="review-content">"I got louie from my grandkids as a puppy, I'm glad this company can help me because as much as I want to walk my dog my body can't do it anymore."</p>
+                <div class="review-title">Louie</div>
+                <p class="review-content">"I got Louie from my grandkids as a puppy, I'm glad this company can help me because as much as I want to walk my dog my body can't do it anymore."</p>
             </div>
         </div>
         <div class="review">
             <img class="review-image" src="./Assets/Images/dog2.jpg" alt="cute dogs">
             <div class="review-overlay">
-                <div class="review-title">Bella</div>
-                <p class="review-content">"Our dog never slept so well after the walk."</p>
+                <div class="review-title">Cookie</div>
+                <p class="review-content">"My dog looks forward for his every walk with his dogdasher, He'd wait by the door everytime."</p>
             </div>
         </div>
-
+    </section>
 
 
         <!--this will have customer reviews that pop up when you click a picture! -->
-    </section>
+    
     <footer>
-        <h2>Contact Us!</h2>
+        <h2 class="contact-us">Contact Us!</h2>
 
         <nav>
             <li>713-DOG-DASH</li>
@@ -156,3 +167,4 @@
     </footer>
     <script src="./assets/js/script.js"></script>
 </body>
+</html>
