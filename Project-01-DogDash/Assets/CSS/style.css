@@ -1,0 +1,82 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+
+}
+header {
+    padding: 10px 35px ;
+    background-color: lightgray;
+    display: flex;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: auto;
+}
+.nav-bar{
+    justify-content:space-between ;
+    flex-direction:row;
+    background-color: cornflowerblue;
+    border-radius: 50px 50px;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 32px;
+}
+body{
+    background-color: rgb(174, 235, 215);
+
+}
+.content-info{
+    border : 2px solid black;
+	padding : 10px;
+	display : flex;
+	justify-content : space-between;
+}
+.signup-box{
+    background-color: antiquewhite;
+    justify-content:center;
+    padding:8px;
+    border: 2px solid gray; 
+}
+form label{
+    display: flex;
+   
+}
+.section-title{
+    width: 800px;
+   align-items: center;
+}
+
+.about-us{
+    padding:10px 10px;
+   
+}
+
+.content-box{
+    background-color: white ;
+    border: 2px solid black;
+}
+.content-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 40px;
+    font-size: 16px;
+    line-height: 2.0;
+    background-color: white;
+}
